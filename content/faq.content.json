@@ -1,0 +1,41 @@
+[
+    {
+        "question": "Czy członkami Toastmasters Studens mogą być tylko studenci?",
+        "answer": ["Członkiem klubu może zostać każdy, TM Students tworzą studenci, przedsiębiorcy, pracownicy korporacji a nawet kilku programistów. Nie trzeba być studentem by przyjść na spotkanie."]
+    },
+    {
+        "question": "Ile wynosi składka członkowska?",
+        "answer": ["Składka członkowska wynosi 200 zł/ 6 miesięcy (45$) oraz jednorazowo 80 zł (20$) za podręczniki kompetentnego mówcy oraz kompetentnego lidera."]
+    },
+    {
+        "question": "Jak wygląda spotkanie?",
+        "answer": ["Spotkanie składa się z dwóch części oddzielonych krótką przerwą, a nad przebiegiem spotkania czuwa Toastmaster wieczoru. W pierwszej części członkowie kluby wygłaszają mowy przygotowane (5-15 minut) realizując projekty z podręcznika kompetentnego mówcy. Zazwyczaj na spotkanie przypada trzech mówców, z których każdy ma swojego recenzenta.",
+        "Po przerwie przychodzi czas na Gorące Pytania, w których chętni mają okazję ćwiczyć odpowiadanie na pytania bez przygotowania. W tej części uczymy się jak sprawnie reagować na niespodziewane sytuacje. Gorące Pytania realizujemy zarówno w formie pytań jak i wszelakich gier improwizacyjnych.",
+        "Dla recenzentów przeznaczony jest czas po przerwie kiedy to przedstawiają mocne strony mówcy oraz to nad czym mógłby popracować. Dzięki temu każdy mówca dokładnie wie na czym się skupić na swojej drodze do wygłaszania wspaniałych mów i prezentacji. Osoby oceniające mowy przygotowane mają okazję realizować się na drugiej ścieżce (kompetentnego lidera) między innymi poprzez dawanie informacji zwrotnej.",
+        "Po zakończeniu udajemy się na afterpaty by na spokojnie podzielić się wrażeniami ze spotkania."]
+    },
+    {
+        "question": "Jak długo trwa spotkanie?",
+        "answer": ["Spotkanie trwa od 1.5 do 2 h, w zależności od ilości mówców oraz tematu spotkania. Każde spotkanie ma swoją agendę, która dokładnie przewiduje ilość czasu przypadającą na dany element. Umiejętność gospodarowania czasem to kolejna rzecz, której uczymy się na spotkaniach TM Students."]
+    },
+    {
+        "question": "W jakim języku prowadzone jest spotkanie?",
+        "answer": ["Spotkania TM Students prowadzone są w języku polskim, jednak członkowie klubu mają możliwość wygłoszenia mowy w języku obcym, są to jednak wyjątkowe sytuacje."]
+    },
+    {
+        "question": "Czy trzeba się wcześniej zarejestrować (wysłać zgłoszenie) by przyjść pierwszy raz na spotkanie?",
+        "answer": ["Przychodzą pierwszy raz na spotkanie nie trzba się nigdzie rejestrować czy zapisywać. Warto śledzić stronę wydarzenia na Facebooku, na której znajdziesz wszystkie szczegóły dotyczące spotkania. Jeżeli nie chcesz przychodzić na spotkanie na którym nikogo nie znasz napisz do Oli (o_kopanska@interia.pl) z którą możesz się spotkać przed spotkaniem i zapytać o szczegóły."]
+    },
+    {
+        "question": "Co to jest Toastmasters Students i czym się zajmuje? ",
+        "answer": ["Toastmasters International to międzynarodowa organizacja typu non-profit, której celem jest szerzenie umiejętności komunikacji, przemawiania i przewodzenia. Toastmasters Students należy do tej organizacji, a jego spotkania odbywają się w Krakowie na kampusie AGH."]
+    },
+    {
+        "question": "Co to znaczy non-profit?",
+        "answer": ["Organizacja non-profit to organizacja, która nie jest nastawiona na zysk. Składki członkowskie przeznaczane są na działalność organizacji. "]
+    },
+    {
+        "question": "Czy w spotkaniach biorą udział tylko bardzo zaawansowani członkowie klubu?",
+        "answer": ["Nie, na nasze spotkania przychodzą zarówno bardzo zaawansowani mówcy jak i osoby dopiero rozpoczynające swoją przygodę z wystąpieniami publicznymi. Dzięki tej różnorodności jesteśmy w stanie wzajemnie się wspierać i wspólnie pracować nad polepszaniem swoich wystąpień.  "]
+    }
+]
