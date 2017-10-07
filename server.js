@@ -33,6 +33,7 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(require('./guests'));
 app.use(require('./web-services/articles-ws'));
+app.use(require('./web-services/faq-ws'));
 
 var port = process.env.PORT || 7001;
 

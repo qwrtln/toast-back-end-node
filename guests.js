@@ -7,7 +7,7 @@ app.post('/api/submit', function(req,res) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
-  fs.appendFile("goscie", ",\n" + JSON.stringify(req.body), function(err) {
+  fs.appendFile("goscie", ",\n" + req.body.email, function(err) {
     if(err) {
       return console.log(err);
     }
@@ -17,7 +17,7 @@ app.post('/api/submit', function(req,res) {
   res.status(200).send();
 });
 
-app.get('/api/get', function(req, res) {
+app.get('/api/guests', function(req, res) {
 
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -25,7 +25,7 @@ app.get('/api/get', function(req, res) {
   fs.readFile("goscie", "utf8", function(err, data){
       if(err) throw err;
 
-      var resultData = JSON.parse(data); //do operation on data that generates say resultArray;
+      var resultData = data; //do operation on data that generates say resultArray;
 
       res.status(200).send(resultData);
   });
