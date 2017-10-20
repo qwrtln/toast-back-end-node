@@ -7,7 +7,9 @@ app.post('/api/submit', function(req,res) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
-  fs.appendFile("goscie", ",\n" + req.body.email, function(err) {
+  const desc = req.body.email + ", " + new Date().toLocaleString() + ",\n";
+
+  fs.appendFile("goscie", desc, function(err) {
     if(err) {
       return console.log(err);
     }
@@ -25,9 +27,9 @@ app.get('/api/guests', function(req, res) {
   fs.readFile("goscie", "utf8", function(err, data){
       if(err) throw err;
 
-      var resultData = data; //do operation on data that generates say resultArray;
 
-      res.status(200).send(resultData);
+    //do operation on data that generates say resultArray;
+    res.status(200).send(data);
   });
 
 });

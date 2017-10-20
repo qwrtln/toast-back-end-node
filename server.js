@@ -31,7 +31,7 @@ if (process.env.NODE_ENV === 'development') {
   app.use(errorhandler())
 }
 
-app.use(require('./guests'));
+app.use(require('./web-services/guests-ws'));
 app.use(require('./web-services/articles-ws'));
 app.use(require('./web-services/faq-ws'));
 
