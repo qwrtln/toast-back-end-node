@@ -1,3 +1,12 @@
 {
-  "secret": "Zakaz promilowania!"
+  "secret": "Zakaz promilowania!",
+  "guestsFile": "goscie",
+  "mailConfig": {
+    "sender": "\"Toastmasters Students\" <kontakt@toastmastersstudents.pl>",
+    "receiver": "marcin91.szewczyk@gmail.com",
+    "server": "in-v3.mailjet.com",
+    "port": 587,
+    "user": "c60306428d2b4b1589b95a240568de20",
+    "pass": "a3f445f876542818d5cb131d70180fbe"
+  }
 }
